@@ -1,55 +1,57 @@
-# FinTech Adoption and Its Impact on Traditional Banking in Nepal: A Primary Survey Analysis
+# FinTech Adoption and Its Impact on Traditional Banking in Nepal
 
 **Nandika Thapa**  
-Finance & Economics Portfolio | [LinkedIn](https://www.linkedin.com/in/nandika-thapa) | nandikathapa4@gmail.com  
+Pokhara, Nepal | nandikathapa4@gmail.com | [LinkedIn](https://www.linkedin.com/in/nandika-thapa) | [GitHub](https://github.com/nandikathapa4-gif)
 
 ## Overview
-This independent research project examines the drivers, user satisfaction, barriers, and behavioral impact of FinTech services in Nepal's banking sector. Based on original primary data collected via an online survey (N=110+ respondents, diverse demographics), the study employs econometric and statistical methods to quantify FinTech's role in reducing reliance on physical branches and promoting financial inclusion in a developing market context.
 
-**Relevance to Graduate Studies**: The analysis bridges empirical economics, financial innovation, and development finance—areas central to Luxembourg's position as a European financial hub and our programs' focus on quantitative finance, digital transformation, and sustainable economic systems.
+This is my independent research project examining the adoption of FinTech services (mobile wallets, digital banking) and its effect on traditional banking in Nepal.Using primary survey data from **111 respondents** (collected in 2024-2025), I analyzed key drivers of FinTech adoption, user satisfaction, challenges, and most importantly — whether FinTech has actually reduced physical visits to bank branches.The project combines data cleaning, visualization, statistical tests, and econometric modeling to derive meaningful insights about financial inclusion and digital transformation in Nepal.
+
+**Relevant Coursework**: Business Statistics, Corporate Finance, Financial Management, Research Methodology (BBS Finance, Tribhuvan University).
+
+[→ Open Interactive Notebook](FinTech_Survey_Analysis_Nepal.ipynb)
 
 ## Methodology
-- **Data Collection**: Structured questionnaire covering demographics, usage frequency, service types, satisfaction (Likert scale), adoption drivers, challenges, and perceived branch reduction.
-- **Tools & Techniques**:
-  - Python (pandas for data wrangling, statsmodels for modeling)
-  - Visualizations: seaborn/matplotlib (bar plots, pie charts, heatmaps)
-  - Inferential statistics: Chi-square tests of independence
-  - Econometric modeling: Logistic regression (addressing quasi-separation via regularization)
-- **Key Challenge Addressed**: Quasi-complete separation in logistic models mitigated through penalized estimation, yielding interpretable odds ratios.
+
+- **Data**: Primary survey (111 responses) covering demographics, usage frequency, satisfaction, adoption reasons, challenges, and branch visit reduction.
+- **Tools**: Python, pandas, seaborn, matplotlib, statsmodels
+- **Techniques**:
+  - Exploratory Data Analysis & Visualization
+  - Chi-square test of independence
+  - Logistic Regression (addressed quasi-complete separation using regularization)
 
 ## Key Findings
-- **High Adoption & Satisfaction**: Daily/weekly usage prevalent; satisfaction scores predominantly 4–5/5.
-- **Behavioral Impact**: ~80% of respondents reported significant/some reduction in physical bank visits due to FinTech convenience (24/7 access) and speed.
-- **Drivers & Barriers**: Top drivers = convenience and faster transactions; major challenges = hidden fees, poor connectivity, security concerns.
-- **Statistical Results**:
-  - Chi-square: No significant association between student status and branch reduction (p=0.786).
-  - Logistic regression: Strong baseline probability of reduced visits (intercept OR ≈7.54, p<0.001); predictors dominated by baseline prevalence after regularization.
-- **Comparative Insights**: Nepal's context contrasted with regional leaders (India's UPI, Bangladesh's bKash), highlighting regulatory, infrastructure, and trust gaps.
 
-## Visualizations
+- Over **80%** of respondents reported that FinTech has significantly or somewhat reduced their visits to physical bank branches.
+- Top adoption drivers: **Convenience (24/7 access)** and **Faster transactions**.
+- Major challenges: Hidden charges/fees, poor internet connectivity, and security concerns.
+- High satisfaction level with FinTech services compared to traditional banking.
+- Chi-square test showed no significant relationship between occupation (e.g. students) and reduction in branch visits.
+- Logistic regression revealed very high baseline probability of reduced branch visits (Odds Ratio ≈ 7.54 for intercept).
+
+### Visualizations
+
 ![Occupation Distribution](occupation_pie.png)  
-*Pie chart: Respondent occupations—students and professionals dominate.*
+**Respondent Occupation Distribution**
 
-![Branch Reduction Impact](branch_reduction.png)  
-*Bar plot: Majority report significant reduction in physical bank visits.*
+![Branch Visit Reduction](branch_reduction.png)  
+**Impact of FinTech on Physical Bank Visits**
 
-![Top Adoption Drivers](adoption_drivers.png)  
-*Ranked drivers: Convenience leads overwhelmingly.*
+![Adoption Drivers](adoption_drivers.png)  
+**Primary Reasons for Using FinTech**
 
 ![Top Challenges](top_challenges.png)  
-*Challenges: Hidden fees and connectivity most cited.*
+**Major Challenges Faced by Users**
 
-(Include 3–4 key plots with captions; ensure high resolution.)
+## Skills Demonstrated
 
-## Implications & Recommendations
-- FinTech augments rather than replaces traditional banking in Nepal—hybrid models recommended.
-- Policy priorities: Improve rural connectivity, enhance transparency/security, foster bank-FinTech collaboration.
-- Future research: Longitudinal studies or larger samples to address generalizability.
+- Survey design & primary data collection
+- Data wrangling and visualization
+- Inferential statistics & econometric modeling
+- Handling real-world modeling issues (quasi-separation)
 
-## Files
-- Interactive Jupyter Notebook: [FinTech_Survey_Analysis_Nepal.ipynb](FinTech_Survey_Analysis_Nepal.ipynb)
-- Raw data: fintech_responses.csv (anonymized)
+This project strengthened my quantitative research skills and gave me practical experience in applying statistics and regression to real economic/finance questions.
 
-This project reflects self-directed research initiative, strong quantitative skills (Python, econometrics), and ability to derive policy-relevant insights from primary data—qualities we value highly in applicants to our Economics & Finance Master's programs.
+## Other Projects
+- BBS Final Year Project: Trend analysis of loan distribution across sectors at Garima Bikas Bank (5 years secondary data)
 
-Last updated: January 2026
